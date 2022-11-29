@@ -1,0 +1,272 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://a4525dbf-c57e-407c-a964-c9006d7223f8",
+	"@type": "sc:Manifest",
+	"label": "Insular Gospel Books",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Durham, Echternach and Corpus-Otho Gospels.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Various artists.",
+	"sequences": [
+		{
+			"@id": "http://73977ba2-1af7-4e0d-98d9-68a6fb02f0aa",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/canvas/t2txg94hp64b",
+					"@type": "sc:Canvas",
+					"label": "f.2r, Durham A",
+					"width": 6450,
+					"height": 6600,
+					"images": [
+						{
+							"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/annotation/canvas_t2txg94hp64b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mm/p4/t2mmp48sc76z/8618f20b6d5aa4cac3c7b0dfd6b3fabf.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"width": 6450,
+								"height": 6600,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mm/p4/t2mmp48sc76z/8618f20b6d5aa4cac3c7b0dfd6b3fabf.jp2",
+									"profile": "http://iiif.io/api/image/2/level1.json"
+								}
+							},
+							"on": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/canvas/t2txg94hp64b"
+						}
+					],
+					"related": {
+						"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/manifest",
+						"label": "Durham Cathedral Library MS. A.II.17 - the Durham Gospels",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/canvas/f157",
+					"label": "76r",
+					"height": 4248,
+					"width": 3192,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/canvas/f157",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/f157"
+								},
+								"height": 4248,
+								"width": 3192,
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/f157/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b530193948/f157.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 9389",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-9",
+					"@type": "sc:Canvas",
+					"label": "p. 247",
+					"height": 8986,
+					"width": 6686,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/imageanno/anno-9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710/197B_247_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 8986,
+								"width": 6686,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710%252F197B_247_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-9"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/list/247.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 197B: The Northumbrian Gospels",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/canvas/f45",
+					"label": "20r",
+					"height": 4248,
+					"width": 3240,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/canvas/f45",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/f45"
+								},
+								"height": 4248,
+								"width": 3240,
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/f45/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b530193948/f45.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b530193948/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 9389",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-7",
+					"@type": "sc:Canvas",
+					"label": "p. 245",
+					"height": 8897,
+					"width": 6742,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/imageanno/anno-7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710/197B_245_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 8897,
+								"width": 6742,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710%252F197B_245_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-7"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/list/245.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 197B: The Northumbrian Gospels",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/canvas/t2tcv43nw988",
+					"@type": "sc:Canvas",
+					"label": "f.61r",
+					"width": 6450,
+					"height": 6600,
+					"images": [
+						{
+							"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/annotation/canvas_t2tcv43nw988",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mm/p4/t2mmp48sc76z/77d06af84568decd319e89591036fd96.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"width": 6450,
+								"height": 6600,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mm/p4/t2mmp48sc76z/77d06af84568decd319e89591036fd96.jp2",
+									"profile": "http://iiif.io/api/image/2/level1.json"
+								}
+							},
+							"on": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/canvas/t2tcv43nw988"
+						}
+					],
+					"related": {
+						"@id": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/manifest",
+						"label": "Durham Cathedral Library MS. A.II.17 - the Durham Gospels",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-10",
+					"@type": "sc:Canvas",
+					"label": "p. 248",
+					"height": 9031,
+					"width": 6553,
+					"images": [
+						{
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/imageanno/anno-10",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710/197B_248_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 9031,
+								"width": 6553,
+								"service": {
+									"@id": "https://stacks.stanford.edu/image/iiif/qw038wz9710%252F197B_248_TC_46",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								}
+							},
+							"on": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/canvas/canvas-10"
+						}
+					],
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/list/248.json"
+						}
+					],
+					"related": {
+						"@id": "https://dms-data.stanford.edu/data/manifests/Parker/qw038wz9710/manifest.json",
+						"label": "Cambridge, Corpus Christi College, MS 197B: The Northumbrian Gospels",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "Left to right"
+}
